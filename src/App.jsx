@@ -1,9 +1,12 @@
 import "./App.css";
+import Banner from "./components/banner/Banner";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold "> I Am Sazeeb saha</h1>
+      <Navbar></Navbar>
+      <Banner></Banner>
     </>
   );
 }
