@@ -3,7 +3,7 @@ import cartIcon from "../../assets/products/shopping-cart.png";
 
 const Navbar = () => {
   return (
-    <div className="container lg:w-8/12 mx-auto">
+    <nav className="container lg:w-8/12 mx-auto">
       <div className="navbar bg-base-100 shadow-md">
         <div className="navbar-start">
           <div className="dropdown">
@@ -78,7 +78,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

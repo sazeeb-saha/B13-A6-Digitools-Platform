@@ -5,7 +5,7 @@ import bannerImg from "../../assets/products/banner.png";
 
 const Banner = () => {
   return (
-    <div className=" container lg:w-8/12 mx-auto">
+    <section className="container lg:w-8/12 mx-auto ">
       <div className="flex justify-between flex-col md:flex-row gap-2.5 mt-20 items-center">
         <div className="space-y-4">
           <div
@@ -46,7 +46,7 @@ const Banner = () => {
           <img src={bannerImg} alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
