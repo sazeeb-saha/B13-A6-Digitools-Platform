@@ -32,8 +32,8 @@ const Banner = () => {
               Explore Products
             </button>
 
-            <div class=" p-[1px] bg-linear-to-r from-[#4F39F6] to-[#9514FA]  rounded-full">
-              <div class="bg-white rounded-full">
+            <div className=" p-[1px] bg-linear-to-r from-[#4F39F6] to-[#9514FA]  rounded-full">
+              <div className="bg-white rounded-full">
                 <button className="flex items-center gap-1.5  bg-linear-to-r from-[#4F39F6] to-[#9514FA] border px-2.5 py-2.5  rounded-full bg-clip-text text-transparent font-bold ">
                   <img src={play} alt="" />
                   Watch Demo
