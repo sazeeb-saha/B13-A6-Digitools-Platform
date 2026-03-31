@@ -2,8 +2,13 @@ import React from "react";
 import { useState } from "react";
 import { FaCheck } from "react-icons/fa6";
 
-const Card = ({ model }) => {
+const Card = ({ model, carts, setCarts }) => {
   const [isBuy, setIsBuy] = useState(false);
+
+  const handleBuy = () => {
+    setIsBuy(true);
+    setCarts([...carts, model]);
+  };
 
   return (
     <div className=" space-y-4 border border-gray-300 rounded-2xl shadow-lg mb-20 p-6 relative">
@@ -11,7 +16,7 @@ const Card = ({ model }) => {
         <p>{model.tag}</p>
       </div>
       <div className="border border-gray-300 rounded-full w-[60px] h-[60px] flex items-center justify-center">
-        {/* <img src={iconImg} alt="Icon Image" /> */}
+        <img src={model.icon} alt="Icon Image" />
       </div>
       <div className="space-y-4">
         <h1 className="text-2xl font-bold">{model.name} </h1>
@@ -36,7 +41,7 @@ const Card = ({ model }) => {
         </div>
       </div>
       <button
-        onClick={() => setIsBuy(true)}
+        onClick={handleBuy}
         className={
           isBuy
             ? "btn bg-linear-to-r from-green-600 to-green-500 w-full rounded-full text-white font-bold p-3.5 mb-6"
@@ -50,4 +55,3 @@ const Card = ({ model }) => {
 };
 
 export default Card;
-// btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-full rounded-full text-white font-bold p-3.5 mb-6

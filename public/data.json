@@ -12,7 +12,7 @@
       "Multiple tones",
       "Plagiarism checker"
     ],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+    "icon": "https://i.ibb.co.com/VpQ3fmR7/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Trending hashtags",
       "Content calendar"
     ],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+    "icon": "https://i.ibb.co.com/RTqYmTT3/social-media.png"
   },
   {
     "id": 3,
@@ -38,7 +38,7 @@
     "tag": "Best Seller",
     "tagType": "best seller",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
+    "icon": "https://i.ibb.co.com/nqpkTf4x/portfolio.png"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["High-res images", "Multiple styles", "Fast rendering"],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png"
+    "icon": "https://i.ibb.co.com/7NCBBwcM/camera.png"
   },
   {
     "id": 5,
@@ -60,7 +60,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["AI avatars", "Voiceover generation", "Templates included"],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Synthesia_logo.png"
+    "icon": "https://i.ibb.co.com/TM3s6T0K/design-tool.png"
   },
   {
     "id": 6,
@@ -71,7 +71,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Email templates", "A/B testing", "Automation tools"],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"
+    "icon": "https://i.ibb.co.com/nqpkTf4x/portfolio.png"
   },
   {
     "id": 7,
@@ -86,7 +86,7 @@
       "Bug detection",
       "Multi-language support"
     ],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+    "icon": "https://i.ibb.co.com/VpQ3fmR7/writing-2327400-1.png"
   },
   {
     "id": 8,
@@ -97,7 +97,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["Auto slide design", "Templates library", "Export to PPT/PDF"],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Microsoft_PowerPoint_Logo_2019.png"
+    "icon": "https://i.ibb.co.com/nqpkTf4x/portfolio.png"
   },
   {
     "id": 9,
@@ -112,6 +112,6 @@
       "Multi-language support",
       "Download audio"
     ],
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Speaker_Icon.svg"
+    "icon": "https://i.ibb.co.com/n83ttr43/operation.png"
   }
 ]
