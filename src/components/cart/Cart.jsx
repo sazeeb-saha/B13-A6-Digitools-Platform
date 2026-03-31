@@ -6,11 +6,13 @@ const Cart = ({ carts, setCarts }) => {
   console.log(totalPrice);
   const handlePayment = () => {
     setCarts([]);
+    toast.success("Payment Successful");
   };
 
   const handleDelete = (item) => {
     const filteredcart = carts.filter((c) => c.id !== item.id);
     setCarts(filteredcart);
+    toast.error("Item deleted!");
   };
 
   return (

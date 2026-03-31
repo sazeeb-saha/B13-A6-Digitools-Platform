@@ -20,7 +20,7 @@ const Card = ({ model, carts, setCarts }) => {
   };
 
   return (
-    <div className=" space-y-4 border border-gray-300 rounded-2xl shadow-lg mb-20 p-6 relative">
+    <div className=" space-y-4 border border-gray-300 rounded-2xl shadow-lg mb-20 p-6 relative w-11/12 mx-auto">
       <div className="bg-amber-300 rounded-xl w-fit p-3 text-red-500 font-semibold absolute right-4 ">
         <p>{model.tag}</p>
       </div>
