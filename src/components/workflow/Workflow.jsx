@@ -13,15 +13,18 @@ const Workflow = () => {
             Start using premium digital tools in minutes, not hours.
           </p>
         </div>
-        <div className="mt-10  space-y-4 grid grid-cols-1 md:grid-cols-3 gap-5 h-full">
+        <div className="mt-10  space-y-4 grid grid-cols-1 md:grid-cols-3 gap-5  h-fit">
           <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-10 h-10 flex justify-center items-center rounded-full absolute top-4 right-4">
               <p className="text-white font-bold">01</p>
             </div>
-            <div className="bg-[#f3e8fe] rounded-full  w-25 h-22.5  flex justify-center items-center ">
+            <div className="bg-[#f3e8fe] rounded-full  w-25 h-22.5  flex justify-center items-center mb-3.5 ">
               <img src={createAccImg} alt="" />
             </div>
-            <div>
+            <div
+              className="
+            space-y-3"
+            >
               <h2 className="text-2xl font-bold">Create Account</h2>
               <p className="opacity-65">
                 Sign up for free in seconds. No credit card required to get
@@ -31,31 +34,29 @@ const Workflow = () => {
           </div>
           <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-10 h-10 flex justify-center items-center rounded-full absolute top-4 right-4">
-              <p className="text-white font-bold">01</p>
+              <p className="text-white font-bold">02</p>
             </div>
-            <div className="bg-[#f3e8fe] rounded-full  w-25 h-22.5  flex justify-center items-center ">
-              <img src={createAccImg} alt="" />
+            <div className="bg-[#f3e8fe] rounded-full  w-25 h-22.5  flex justify-center items-center  mb-3.5">
+              <img src={chooseProductImg} alt="" />
             </div>
-            <div>
-              <h2 className="text-2xl font-bold">Create Account</h2>
+            <div className="space-y-3">
+              <h2 className="text-2xl font-bold">Choose Products</h2>
               <p className="opacity-65">
-                Sign up for free in seconds. No credit card required to get
-                started.
+                Browse our catalog and select the tools that fit your needs.
               </p>
             </div>
           </div>
           <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative h-fit">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-10 h-10 flex justify-center items-center rounded-full absolute top-4 right-4">
-              <p className="text-white font-bold">01</p>
+              <p className="text-white font-bold">03</p>
             </div>
-            <div className="bg-[#f3e8fe] rounded-full  w-25 h-22.5  flex justify-center items-center ">
-              <img src={createAccImg} alt="" />
+            <div className="bg-[#f3e8fe] rounded-full  w-25 h-22.5  flex justify-center items-center  mb-3.5">
+              <img src={rocketImg} alt="" />
             </div>
-            <div>
-              <h2 className="text-2xl font-bold">Create Account</h2>
+            <div className="space-y-3">
+              <h2 className="text-2xl font-bold ">Start Creating</h2>
               <p className="opacity-65">
-                Sign up for free in seconds. No credit card required to get
-                started.
+                Download and start using your premium tools immediately.
               </p>
             </div>
           </div>
