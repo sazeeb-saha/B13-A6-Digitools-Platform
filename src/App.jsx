@@ -7,6 +7,7 @@ import State from "./components/state/State";
 import Cart from "./components/cart/Cart";
 import { useState } from "react";
 import Workflow from "./components/workflow/Workflow";
+import Pricing from "./components/pricing/Pricing";
 
 const getModels = async () => {
   const res = await fetch("/data.json");
@@ -51,7 +52,7 @@ function App() {
         </div>
       </div>
 
-      {/* Suspense comment for re-loading issue  issue  */}
+      {/* Suspense off for re-loading  issue  */}
       {/* <Suspense
         fallback={<span className="loading loading-bars loading-xl"></span>}
       > */}
@@ -67,6 +68,7 @@ function App() {
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
       <Workflow></Workflow>
+      <Pricing></Pricing>
     </>
   );
 }

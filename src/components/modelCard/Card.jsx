@@ -39,14 +39,13 @@ const Card = ({ model, carts, setCarts }) => {
       </div>
       <div>
         <div className="flex items-center gap-2  text-[#627382]">
-          <FaCheck className="text-green-500 font-bold" /> Unlimited AI
-          generations{" "}
+          <FaCheck className="text-green-500 font-bold" /> {model.features[0]}
         </div>
         <div className="flex items-center gap-2  text-[#627382]">
-          <FaCheck className="text-green-500 font-bold" /> 50+ writing templates
+          <FaCheck className="text-green-500 font-bold" /> {model.features[1]}
         </div>
         <div className="flex items-center gap-2  text-[#627382]">
-          <FaCheck className="text-green-500 font-bold" /> Grammar checker
+          <FaCheck className="text-green-500 font-bold" /> {model.features[2]}
         </div>
       </div>
       <button
