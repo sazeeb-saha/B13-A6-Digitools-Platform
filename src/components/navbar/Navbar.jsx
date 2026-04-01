@@ -50,7 +50,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="text-3xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
+            <a className="text-2xl md:text-3xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
               DigiTools
             </a>
           </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
             <p className="font-bold">
               <a href="">Login</a>
             </p>
-            <a className="btn  text-white font-bold bg-linear-to-r  from-[#4F39F6] to-[#9514FA] rounded-full p-5">
+            <a className="btn  text-white font-bold bg-linear-to-r  from-[#4F39F6] to-[#9514FA] rounded-full p-3 md:p-5">
               Get Started
             </a>
           </div>
