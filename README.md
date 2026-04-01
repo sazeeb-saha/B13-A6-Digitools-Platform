@@ -1,16 +1,36 @@
-# React + Vite
+## -Digitools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React project that showcases a collection of useful digital and AI tools in a clean, responsive UI.
 
-Currently, two official plugins are available:
+## -Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Digitools Platform is a frontend web application where users can explore different digital tools such as resume builders, content generators, and productivity tools.
 
-## React Compiler
+Each tool is displayed with details like:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Name
+Description
+Price
+Features
+Tags (Popular, Best Seller, New)
 
-## Expanding the ESLint configuration
+## -Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend:
+React.js
+Tailwind CSS
+DaisyUI
+
+Concepts Used:
+Component-based architecture
+Props & state management
+Dynamic rendering using map()
+Conditional rendering
+
+## -Features
+
+🔹 Display list of digital tools
+🔹 Dynamic card rendering from JSON data
+🔹 Badge system (Popular, Best Seller, New)
+🔹 Responsive design
+🔹 Clean UI using Tailwind & DaisyUI
