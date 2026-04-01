@@ -14,7 +14,7 @@ const Workflow = () => {
           </p>
         </div>
         <div className="mt-10  space-y-4 grid grid-cols-1 md:grid-cols-3 gap-5  h-fit">
-          <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative">
+          <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative md:h-full">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-10 h-10 flex justify-center items-center rounded-full absolute top-4 right-4">
               <p className="text-white font-bold">01</p>
             </div>
@@ -32,7 +32,7 @@ const Workflow = () => {
               </p>
             </div>
           </div>
-          <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative">
+          <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative md:h-full">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-10 h-10 flex justify-center items-center rounded-full absolute top-4 right-4">
               <p className="text-white font-bold">02</p>
             </div>
@@ -46,7 +46,7 @@ const Workflow = () => {
               </p>
             </div>
           </div>
-          <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative h-fit">
+          <div className="border rounded-2xl border-gray-200 shadow-xl flex flex-col justify-center items-center text-center px-6  py-20 relative md:h-full lg:h-full">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-10 h-10 flex justify-center items-center rounded-full absolute top-4 right-4">
               <p className="text-white font-bold">03</p>
             </div>
