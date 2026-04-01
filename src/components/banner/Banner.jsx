@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="space-y-4">
           <div
             className="flex items-center font-semibold gap-1.5 bg-[#E1E7FF] rounded-full pl-3
-        py-0.5 w-[294px]  "
+        py-0.5 w-[294px]  justify-center md:justify-start "
           >
             <img className="w-4 h-4 " src={bannerDot} alt="" />
             <p>New: AI-Powered Tools Available</p>
