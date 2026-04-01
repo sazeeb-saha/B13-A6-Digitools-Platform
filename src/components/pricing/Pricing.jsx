@@ -56,7 +56,7 @@ const Pricing = () => {
           </div>
           {/* card 2 */}
           <div className="space-y-6 border  border-gray-200  bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-2xl shadow-xl text-white   p-6 relative">
-            <div className="bg-amber-100 text-red-400 font-medium rounded-full w-fit px-3 py-1.5 absolute  -top-4.5 left-56 lg:left-42.5 border-0">
+            <div className="bg-amber-100 text-red-400 font-medium rounded-full w-fit px-3 py-1.5 absolute  -top-4.5 left-52 lg:left-37.5 border-0">
               <p>Most Popular</p>
             </div>
             <div>

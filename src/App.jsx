@@ -8,6 +8,7 @@ import Cart from "./components/cart/Cart";
 import { useState } from "react";
 import Workflow from "./components/workflow/Workflow";
 import Pricing from "./components/pricing/Pricing";
+import Footer from "./components/footer/Footer";
 
 const getModels = async () => {
   const res = await fetch("/data.json");
@@ -69,6 +70,7 @@ function App() {
 
       <Workflow></Workflow>
       <Pricing></Pricing>
+      <Footer></Footer>
     </>
   );
 }
