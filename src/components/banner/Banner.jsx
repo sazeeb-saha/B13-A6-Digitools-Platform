@@ -15,19 +15,18 @@ const Banner = () => {
             <img className="w-4 h-4 " src={bannerDot} alt="" />
             <p>New: AI-Powered Tools Available</p>
           </div>
-          <h1 className="text-7xl font-extrabold">
+          <h1 className=" text-4xl md:text-7xl text-center md:text-left font-extrabold">
             Supercharge Your <br />
             <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
               Digital Workflow
             </span>
           </h1>
-          <p className="opacity-65 text-lg ">
+          <p className="opacity-65 text-lg text-center md:text-left  lg:w-[640px] ">
             Access premium AI tools, design assets, templates, and productivity{" "}
-            <br />
             software—all in one place. Start creating faster today. Explore
             Products
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 justify-center md:justify-start">
             <button className="btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-6 ">
               Explore Products
             </button>
