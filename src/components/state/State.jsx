@@ -3,7 +3,7 @@ import React from "react";
 const State = () => {
   return (
     <section className="bg-linear-to-r from-[#4F39F6] to-[#9514FA]  my-24 ">
-      <div className="container lg:w-8/12 mx-auto  flex justify-around items-center text-center py-16">
+      <div className="container lg:w-8/12 mx-auto  flex justify-around items-center text-center py-16 flex-col md:flex-row">
         <div>
           <h2 className="text-white font-extrabold text-6xl">50K+</h2>
           <p className="text-white text-2xl font-medium mt-3 opacity-80">
