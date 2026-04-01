@@ -63,7 +63,7 @@ const Cart = ({ carts, setCarts }) => {
       </div>
       <button
         onClick={handlePayment}
-        className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]  rounded-full text-white font-bold mt-5 p- "
+        className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]  rounded-full text-white font-bold mt-5  "
       >
         Proceed to Checkout
       </button>
