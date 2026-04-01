@@ -17,20 +17,14 @@ Tags (Popular, Best Seller, New)
 ## -Tech Stack
 
 Frontend:
-React.js
-Tailwind CSS
-DaisyUI
-
-Concepts Used:
-Component-based architecture
-Props & state management
-Dynamic rendering using map()
-Conditional rendering
+🔹React.js
+🔹Tailwind CSS, DaisyUI
+🔹JavaScript (ES6+)
+🔹React-Toastify (NPM Package)
+🔹JSON (for product data)
 
 ## -Features
 
 🔹 Display list of digital tools
 🔹 Dynamic card rendering from JSON data
 🔹 Badge system (Popular, Best Seller, New)
-🔹 Responsive design
-🔹 Clean UI using Tailwind & DaisyUI
