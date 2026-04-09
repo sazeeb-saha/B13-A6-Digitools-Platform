@@ -2,6 +2,9 @@
 
 A beginner-friendly React project that showcases a collection of useful digital and AI tools in a clean, responsive UI.
 
+-Live Link: digitools-saz.netlify.app
+
+
 ## -Project Overview
 
 Digitools Platform is a frontend web application where users can explore different digital tools such as resume builders, content generators, and productivity tools.
